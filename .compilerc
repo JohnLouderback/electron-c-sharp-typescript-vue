@@ -1,0 +1,66 @@
+{
+  "env": {
+    "development": {
+      "application/javascript": {
+        "presets": [
+          [
+            "env",
+            {
+              "targets": {
+                "electron": 1.6
+              }
+            }
+          ],
+          "react"
+        ],
+        "plugins": [
+          "transform-async-to-generator"
+        ],
+        "sourceMaps": "inline"
+      },
+      "text/typescript": {
+       "removeComments": false,
+       "preserveConstEnums": true,
+       "declaration": true,
+       "noImplicitAny": true,
+       "noImplicitReturns": true,
+       "suppressImplicitAnyIndexErrors": true,
+       "strictNullChecks": true,
+       "noUnusedLocals": true,
+       "noImplicitThis": true,
+       "noUnusedParameters": true,
+       "inlineSourceMap": true,
+       "inlineSources": true,
+       "importHelpers": true,
+       "noEmitHelpers": true,
+       "experimentalDecorators": true,
+       "allowSyntheticDefaultImports": true,
+       "target": "ES5",
+       "module": "commonjs",
+       "jsx": "react",
+       "lib": [
+         "ES6"
+       ]
+     }
+    },
+    "production": {
+      "application/javascript": {
+        "presets": [
+          [
+            "env",
+            {
+              "targets": {
+                "electron": 1.6
+              }
+            }
+          ],
+          "react"
+        ],
+        "plugins": [
+          "transform-async-to-generator"
+        ],
+        "sourceMaps": "none"
+      }
+    }
+  }
+}

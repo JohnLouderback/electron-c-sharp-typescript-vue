@@ -1,0 +1,64 @@
+{
+  "name": "electron-test-2",
+  "productName": "electron-test-2",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": "John",
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "make_targets": {
+        "win32": [
+          "squirrel"
+        ],
+        "darwin": [
+          "zip"
+        ],
+        "linux": [
+          "deb",
+          "rpm"
+        ]
+      },
+      "electronPackagerConfig": {},
+      "electronWinstallerConfig": {
+        "name": "electron_test_2"
+      },
+      "electronInstallerDebian": {},
+      "electronInstallerRedhat": {},
+      "github_repository": {
+        "owner": "",
+        "name": ""
+      },
+      "windowsStoreConfig": {
+        "packageName": "",
+        "name": "electrontest2"
+      }
+    }
+  },
+  "dependencies": {
+    "electron-compile": "^6.4.1",
+    "electron-devtools-installer": "^2.2.0",
+    "electron-edge": "^6.5.5",
+    "tslib": "^1.4.0",
+    "vue": "^2.3.4"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-react": "^6.24.1",
+    "electron-prebuilt-compile": "1.6.11",
+    "tslint": "^4.2.0",
+    "typescript": "~2.1.4",
+    "vue-class-component": "^5.0.1",
+    "vue-devtools": "^3.1.2",
+    "vueify": "^9.4.1"
+  }
+}

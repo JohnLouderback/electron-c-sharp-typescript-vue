@@ -1,0 +1,5 @@
+C:\Users\John\Projects\electron-test-2\DotNet\DotNet.Windows\bin\Debug\DotNet.Windows.dll
+C:\Users\John\Projects\electron-test-2\DotNet\DotNet.Windows\bin\Debug\DotNet.Windows.pdb
+C:\Users\John\Projects\electron-test-2\DotNet\DotNet.Windows\obj\Debug\DotNet.Windows.csprojResolveAssemblyReference.cache
+C:\Users\John\Projects\electron-test-2\DotNet\DotNet.Windows\obj\Debug\DotNet.Windows.dll
+C:\Users\John\Projects\electron-test-2\DotNet\DotNet.Windows\obj\Debug\DotNet.Windows.pdb
